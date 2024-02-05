@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+body {
+	font-family: 'Abhaya Libre', serif;
+	background: #ccc;
+}
+
+.container {
+	width: 612px;
+	margin: 20px auto;
+	background: white;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.container .header {
+	padding: 30px 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.header .svg-icon svg {
+	width: 20px;
+	height: 20px;
+}
+
+.container .line-throught {
+	width: 100%;
+	height: 1px;
+	background: #ccc;
+}
+
+/* content */
+.container .content {
+	padding: 30px 40px 50px;
+}
+
+.container .content .form-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+}
+
+.form-container .form-left,
+.form-container .form-right {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.form-right .form-group,
+.form-left .form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.form-container .form-group .form-label {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.form-container .form-group .form-input {
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	padding: 8px;
+	box-shadow: 2px 2px 5px #b5b5b5, -2px -2px 5px #ffffff;
+}
+
+/* footer */
+.container .footer {
+	padding: 30px 40px;
+	text-align: right;
+}
+
+.container .footer .btn-submit {
+	background: #1d4ed8;
+	color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border: none;
+	padding: 8px 16px;
+}
+
+/*
+width
+max-width
+min-width
+height
+max-height
+min-height
+*/
+
+/* break point
+
+
+sm: small mobile => max-width: 640px
+md: medium mobile => min-width: 641px and max-width: 768px
+lg: large mobile => min-width: 769px and max-width: 1024px
+xl: laptop => min-width: 1025px and max-width: 1280px
+2xl: large laptop => min-width: 1281px >=
+
+*/
+
+@media (max-width: 640px) {
+	body {
+		overflow: hidden;
+	}
+	.container {
+		width: 100%;
+	}
+	.container .header {
+		padding: 24px 16px;
+	}
+	.header h2 {
+		color: royalblue;
+	}
+	.container .content {
+		padding: 30px 16px 50px;
+	}
+	.container .content .form-container {
+		grid-template-columns: 1fr;
+	}
+	.container .footer {
+		padding: 24px 16px;
+	}
+}
+
+/* @media (min-width: 641px) and (max-width: 768px) {
+	.header h2 {
+		color: red;
+	}
+} */
+/*
+@media (min-width: 769px) and (max-width: 1024px) {
+	.header h2 {
+		color: green;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.header h2 {
+		color: yellow;
+	}
+}
+
+@media (min-width: 1281px) {
+	.header h2 {
+		color: purple;
+	}
+} */
