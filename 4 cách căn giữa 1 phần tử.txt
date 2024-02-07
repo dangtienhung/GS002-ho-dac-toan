@@ -1,0 +1,18 @@
+4 cách căn giữa 1 phần tử:
+
+- Cách 1: 
+display: flex;
+justify-content: center;
+align-items: center;
+
+- Cách 2:
+text-align: center;
+line-height: 64px; (phụ thuộc vào chiều cao thằng cha height: 64px)
+
+- Cách 3:
+position: relative;(Cố định vào thằng cha trước)
+Thằng con:
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
