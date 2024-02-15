@@ -1,0 +1,9 @@
+{
+	"name": "dang tien hung",
+	"address": {
+		"city": "hanoi",
+		"district": "caugiay",
+		"street": "hoangquocviet"
+	},
+	"phone": ["0987654321", "0123456789"]
+}
