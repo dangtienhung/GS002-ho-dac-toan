@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 20px
+}
+
+.form-wrapper .form-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 78, 102);
+  padding: 16px;
+  color: #fff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.form-wrapper .form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-wrapper .form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-container .form-group .form-label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form-container .form-group .form-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.form-container .btn-submit {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #4497ab;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form-container .form-message {
+  color: #f00;
+  font-size: 14px;
+}
+
+/* setting */
+.hidden {
+  display: none;
+}
