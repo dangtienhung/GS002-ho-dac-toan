@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(58, 187, 248, 1) 0%, rgba(98, 104, 241, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.container .btn-close,
+.container .btn-open {
+  background: #406fc3;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  color: #fff;
+  padding: 10px 20px;
+  width: fit-content;
+}
+
+.container .dialog-container {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .dialog-container .dialog-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container .dialog-container .dialog-desc {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* config css */
+.hidden {
+  display: none !important
+}
