@@ -1,0 +1,86 @@
+export const mockData = [
+	{
+		id: 1,
+		title: 'sản phẩm 1',
+		price: 1000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 2,
+		title: 'sản phẩm 2',
+		price: 2000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 3,
+		title: 'sản phẩm 3',
+		price: 3000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 4,
+		title: 'sản phẩm 4',
+		price: 4000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 5,
+		title: 'sản phẩm 5',
+		price: 5000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 6,
+		title: 'sản phẩm 6',
+		price: 6000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 7,
+		title: 'sản phẩm 7',
+		price: 7000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 8,
+		title: 'sản phẩm 8',
+		price: 8000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 9,
+		title: 'sản phẩm 9',
+		price: 9000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 10,
+		title: 'sản phẩm 10',
+		price: 10000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 11,
+		title: 'sản phẩm 11',
+		price: 11000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 12,
+		title: 'sản phẩm 12',
+		price: 12000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 13,
+		title: 'sản phẩm 13',
+		price: 13000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+	{
+		id: 14,
+		title: 'sản phẩm 14',
+		price: 14000,
+		image: `https://picsum.photos/536/${Math.floor(Math.random() * 100) + 1}`,
+	},
+];
