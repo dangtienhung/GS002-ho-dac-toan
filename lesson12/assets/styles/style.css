@@ -1,0 +1,14 @@
+.product-container {
+  display: flex;
+  /*flex*/gap: 40px;
+  /*gap-10*/justify-content: center;
+  /*justify-center*/justify-content: space-between;
+  /*justify-between*/margin-top: 40px;
+  /*mt-10*/flex-direction: row;
+  /*flex-r*/background-color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
