@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "name": "Product 1 updated",
+      "price": 1000,
+      "image": "https://via.placeholder.com/150",
+      "id": "6"
+    },
+    {
+      "name": "Product 1 updated",
+      "price": 1000,
+      "image": "https://via.placeholder.com/150",
+      "id": "7"
+    },
+    {
+      "name": "Product 57 updated",
+      "price": 868,
+      "image": "https://via.placeholder.com/150",
+      "id": "8"
+    },
+    {
+      "id": "9",
+      "name": "Product 1 updated",
+      "price": 1000,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "10",
+      "name": "Product 10",
+      "price": 1000,
+      "image": "https://picsum.photos/536/354"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "User 1",
+      "email": "user1@gmail.com",
+      "password": "123456"
+    }
+  ]
+}
