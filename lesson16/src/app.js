@@ -1,5 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import productRoutes from './routes/product.routes.js';
 import userRoutes from './routes/user.routes.js';
 
 const app = express();
@@ -21,6 +22,7 @@ mongoose
 
 // api users
 app.use('/api/v1', userRoutes);
+app.use('/products', productRoutes);
 
 const port = 8080;
 
